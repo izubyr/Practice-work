@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gallery</title>
+
+    <style>
+        .stack-grid{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+        }
+        .stack-card{
+            margin: 5px;
+            border: 1px solid #ccc;
+            width: 180px;
+        }
+        img{
+            width: 100%;
+            height: auto;
+        }
+        .stack-card:hover{
+            transform: translateY(-5px);
+            border-color: aqua;
+            box-shadow: 0 5px 25px blue;
+        }
+        .stack-card p{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h2>CSS Image Gallery</h2>
+    <p>A CSS image gallery is a collection of images that is displayed in an organized, and often responsive way, on a web page.</p>
+    <p>Here we use CSS to create an image gallery:</p>
+
+    <div class="stack-grid">
+        <div class="stack-card">
+            <img src="pics/img_5terre.jpg" alt="terre" width="500" height="500">
+            <p>Cinque Terre</p>
+        </div>
+
+        <div class="stack-card">
+            <img src="pics/img_forest.jpg" alt="forest" width="500" height="500">
+            <p>Green Forest</p>
+        </div>
+
+        <div class="stack-card">
+            <img src="pics/img_lights.jpg" alt="lights" width="500" height="500">
+            <p>Nothern Lights</p>
+        </div>
+
+        <div class="stack-card">
+            <img src="pics/img_mountains.jpg" alt="mountains" width="500" height="500">
+            <p>Mountains</p>
+        </div>
+    </div>
+
+</body>
+</html>

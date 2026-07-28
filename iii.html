@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>III</title>
+
+    <div>   
+        <b style="font-size: 30px;">📩</b><br>
+        <h2>Get In Touch</h2>
+    </div>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+    
+
+    <link rel="stylesheet" href="external.css">
+</head>
+<body>
+    <form>
+        <label for="fname"><strong>Full Name:</strong></label><br>
+        <input type="text" id="fname" name="fname" placeholder="Enter your full name"><br>
+
+        <label for="email"><strong>Email:</strong></label><br>
+        <input type="email" id="email" name="email" placeholder="Enter your email"><br>
+
+        <label for="number"><strong>Phone Number:</strong></label><br>
+        <input type="tel" id="number" name="number" placeholder="Enter your phone number"><br>
+
+        <label for="subject"><strong>Subject:</strong></label><br>
+        <select id="subject" name="subject">
+            <option value="maths">Maths</option>
+            <option value="english">English</option>
+            <option value="geography">Geography</option>
+        </select><br>
+
+        <label for="msg"><strong>Message:</strong></label><br>
+        <textarea name="msg" id="msg" placeholder="Type your message here"></textarea><br>
+
+        <input type="checkbox" id="news" name="news" value="name">
+        <label for="news">Subscribe to our newsletter</label><br>
+
+        <p><strong>Preferred contact method:</strong><br>
+        <input type="radio" id="email2" name="pcm" value="email2">
+        <label for="email">Email</label>
+        <input type="radio" id="phone" name="pcm" value="phone">
+        <label for="phone">Phone</label><br>
+
+        <button id="send" style="color: white;">Send Message</button>
+        <button id="clear">Clear Form</button>
+    </form>
+</body>
+</html>
