@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript DOM</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1 id="header">JavaScript DOM</h1>
+    <p id="counter" style="font-size: 6rem; text-align: center;">0</p>
+    <div style="display: flex; gap: 4px; justify-content: center;">
+        <button onclick="incrementCount()" style="cursor: pointer;">➕</button>
+        <button onclick="decrementCount()" style="cursor: pointer;">➖</button>
+        <button onclick="resetCount()" style="cursor: pointer;">🔰</button>
+    </div>
+    <br>
+
+    
+    <button onclick="updateheader()" style="cursor: pointer;">Update Header</button>
+    <p>Proident excepteur est fugiat minim.</p>
+    <p>Sunt minim enim qui consectetur sint commodo irure sit consequat.</p>
+    <p>Lorem est eu ex cupidatat non cupidatat labore dolore consectetur.</p>
+    <p>Nisi nostrud cupidatat enim est ex id laboris aute ea.</p>
+    <p>Quis qui cillum officia mollit reprehenderit fugiat consectetur cupidatat ipsum nostrud mollit amet nostrud dolor.</p>
+    <p>In commodo deserunt sit id ullamco adipisicing non sunt labore voluptate aute.</p>
+    <script>
+        function updateheader () {
+            let header = document.getElementById("header")
+            header.innerHTML <= "<ul>"
+        }
+    </script>
+</body>
+</html>
