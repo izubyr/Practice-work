@@ -49,11 +49,3 @@ This repository documents hands-on practice across core web standards—progress
 - **Python** (Basic scripting)
 
 ---
-
-## 🚀 Getting Started
-
-No external dependencies, build tools, or server setups are required to run these files.
-
-1. Clone or download this repository:
-   ```bash
-   git clone [https://github.com/](https://github.com/)<your-username>/<your-repo-name>.git
